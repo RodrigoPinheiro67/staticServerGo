@@ -1,0 +1,25 @@
+*{
+background-color:aquamarine;
+font-family: sans-serif; 
+}
+
+.pulsate {
+    font-size: 24px;
+    color: #ff5733;
+    animation: pulsate 4s infinite;
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+@keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
